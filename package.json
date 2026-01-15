@@ -2,6 +2,7 @@
   "name": "nsecret",
   "version": "1.0.0",
   "description": "Unseen good. Real impact.",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "firebase": "^12.8.0",
