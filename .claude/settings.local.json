@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm start)",
+      "Bash(timeout:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(npm install:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit - NSecret app\n\nA React app for practicing unseen good deeds with:\n- Daily secret acts across five virtues\n- Mission system with tiered progression\n- Firebase authentication \\(Google & Email\\)\n- Cloud sync for user progress\n- PWA support\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
