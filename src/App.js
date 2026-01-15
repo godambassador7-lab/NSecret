@@ -1006,6 +1006,12 @@ const App = () => {
           <p className="text-xs text-amber-800/40 tracking-widest italic">
             No sharing. No proof. No applause.
           </p>
+          <p className="text-[11px] text-amber-800/50 mt-3 tracking-wide">
+            Made by YGamify
+          </p>
+          <p className="text-[10px] text-amber-800/40 mt-1 tracking-wide">
+            © {new Date().getFullYear()} YGamify. All rights reserved.
+          </p>
         </div>
       </div>
     </div>
