@@ -358,10 +358,10 @@ const App = () => {
   if (!mounted) return null;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-amber-50/30 to-stone-100 p-6 font-serif">
-      <div className="max-w-2xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-br from-white via-amber-50/30 to-stone-100 p-6 pt-safe font-serif">
+      <div className="max-w-2xl mx-auto pt-8">
         {/* Menu Button */}
-        <div className="absolute top-6 right-6 fade-in">
+        <div className="absolute top-safe right-6 pt-8 fade-in">
           <button
             onClick={() => setMenuOpen(true)}
             className="p-3 glass rounded-full hover:bg-amber-50 transition-all duration-300"
